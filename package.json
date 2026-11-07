@@ -1,0 +1,24 @@
+{
+  "name": "miss-angie",
+  "version": "1.0.0",
+  "description": "Miss Angie, an AI family secretary. A phone web app for one very loved mom.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "vapid": "node scripts/vapid.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "node-cron": "^4.6.0",
+    "web-push": "^4.0.0"
+  }
+}

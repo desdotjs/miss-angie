@@ -16,7 +16,7 @@ For how it all fits together, see **WALKTHROUGH.md**.
 
 ## Run it on your computer
 
-You need Node 20 or newer.
+You need Node 22 (the database library requires it; `.node-version` pins it for Railway).
 
 ```bash
 npm install

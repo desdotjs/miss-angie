@@ -10,7 +10,7 @@
     "vapid": "node scripts/vapid.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.6.0",
